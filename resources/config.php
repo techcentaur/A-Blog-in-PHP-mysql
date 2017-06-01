@@ -1,0 +1,14 @@
+<?php
+//we define configuration variables here
+
+$config['db_host'] = 'localhost';
+$config['db_user'] = 'root';
+$config['db_pass'] = '';
+$config['db_name'] = 'blog';
+
+foreach ($config as $key => $value) {
+	define(strtoupper($key), ($value));
+}
+
+
+?>
